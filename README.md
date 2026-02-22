@@ -1,65 +1,57 @@
-AFA Fixed Fee Risk Model
+🧾 AFA Fixed Fee Risk Model
+📊 Pricing & Margin Sensitivity Analysis for Professional Services
+🔍 Executive Summary
 
-Professional Services Pricing | Margin & Risk Evaluation Tool
+This project develops a structured financial risk model for evaluating fixed-fee (Alternative Fee Arrangement – AFA) engagements in professional services such as law firms and consulting firms.
 
-📌 Project Overview
+Unlike hourly billing, fixed-fee pricing introduces financial exposure because revenue is fixed while cost varies with hours and staffing composition. This model enables pre-approval evaluation of margin sustainability and break-even risk.
 
-This project develops a structured risk evaluation model for fixed-fee (Alternative Fee Arrangement – AFA) engagements in professional services.
+🎯 Business Problem
 
-Unlike hourly billing, fixed-fee pricing introduces financial risk because revenue is fixed while cost varies with hours worked. This model helps evaluate whether a proposed engagement meets margin targets and maintains sufficient risk buffer before approval.
+Professional services firms face the following risks under fixed-fee engagements:
 
-🎯 Business Objective
+Revenue is predetermined
 
-To determine:
+Actual hours may exceed estimates
 
-Whether the engagement achieves target margin
+Senior resource involvement increases cost
 
-The break-even hour threshold
+Margin erosion occurs before break-even
 
-The margin erosion point
+Without structured analysis, firms may approve engagements that are profitable on paper but financially risky in execution.
 
-Sensitivity of profit to hour increases
+🧠 Analytical Framework Applied
 
-Impact of resource mix on cost structure
+This model applies core pricing analytics principles:
 
-🧠 Key Pricing Concepts Applied
+Concept	Purpose
+Break-even Analysis	Identify hour threshold where profit = 0
+Margin Threshold Analysis	Identify when margin falls below target
+Cost Sensitivity Modeling	Measure impact of hour increases
+Resource Mix Optimization	Evaluate staffing cost structure impact
+Scenario Testing	Simulate financial exposure before approval
+🏗 Model Architecture
+1️⃣ Assumptions Layer
 
-Fixed Fee Pricing
+Structured input framework including:
 
-Break-even Analysis
-
-Margin Target Protection
-
-Margin Erosion
-
-Resource Mix Optimization
-
-Cost Sensitivity Analysis
-
-Scenario Testing
-
-📊 Model Structure
-1️⃣ Assumptions Sheet
-
-Includes:
-
-Fixed Fee
+Fixed Fee Revenue
 
 Estimated Hours
 
 Target Margin
 
-Resource Cost per Level (Partner, Senior, Junior)
+Resource Cost per Level (Partner / Senior / Junior)
 
 Resource Mix (%)
 
-Weighted Average Cost per Hour Calculation
+Weighted Average Cost Calculation
 
-2️⃣ Base Case Analysis
+2️⃣ Base Case Financial Evaluation
 
-Calculates:
+Automatically calculates:
 
-Expected Total Cost
+Total Project Cost
 
 Expected Profit
 
@@ -67,30 +59,66 @@ Expected Margin
 
 Break-even Hours
 
-Margin Threshold Hours
+Margin Erosion Threshold
 
-3️⃣ Risk & Sensitivity Analysis
+3️⃣ Risk & Sensitivity Engine
 
 Evaluates:
 
-Profit across different hour scenarios
+Profit impact across hour scenarios
 
-Margin classification (Above Target / Below Target / Loss)
+Margin classification:
+
+Above Target
+
+Below Target
+
+Loss
 
 Visual profit sensitivity chart
 
-📈 Example Insight
+📈 Visual Output Example
 
-The model demonstrates how increased senior resource involvement raises weighted cost per hour, reduces break-even buffer, and increases financial risk in fixed-fee engagements.
-
-💡 Strategic Application
+💼 Strategic Application
 
 This model supports pricing teams in:
 
-Evaluating financial exposure before proposal submission
+Evaluating fixed-fee financial exposure
 
 Protecting target margins
 
-Managing resource allocation risk
+Stress-testing engagement assumptions
 
 Supporting data-driven commercial negotiations
+
+Balancing revenue and cost risk
+
+📌 Key Insight Demonstrated
+
+Margin risk begins before break-even.
+Even profitable engagements may underperform if target margins are not protected.
+
+Resource mix decisions materially impact:
+
+Break-even threshold
+
+Safety buffer
+
+Financial flexibility
+
+🚀 Tools Used
+
+Microsoft Excel
+
+Structured financial modeling
+
+
+Scenario-based risk analysis
+
+📎 Repository Structure
+
+afa-fixed-fee-risk-model/
+│
+├── excel-model/
+├── screenshots/
+└── docs/
