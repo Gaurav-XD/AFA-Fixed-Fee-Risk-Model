@@ -1,28 +1,34 @@
-# AFA-Fixed-Fee-Risk-Model
-Fixed Fee (AFA) Risk &amp; Margin Sensitivity Model for Professional Services Pricing
-
 AFA Fixed Fee Risk Model
+
+Professional Services Pricing | Margin & Risk Evaluation Tool
+
 📌 Project Overview
 
-This project evaluates financial risk in fixed-fee (Alternative Fee Arrangement) engagements within professional services. The model helps assess profitability, break-even thresholds, margin sensitivity, and resource mix impact before approving client proposals.
+This project develops a structured risk evaluation model for fixed-fee (Alternative Fee Arrangement – AFA) engagements in professional services.
+
+Unlike hourly billing, fixed-fee pricing introduces financial risk because revenue is fixed while cost varies with hours worked. This model helps evaluate whether a proposed engagement meets margin targets and maintains sufficient risk buffer before approval.
 
 🎯 Business Objective
 
-To determine whether a fixed-fee engagement:
+To determine:
 
-Meets target margin requirements
+Whether the engagement achieves target margin
 
-Has sufficient break-even buffer
+The break-even hour threshold
 
-Can absorb scope increases
+The margin erosion point
 
-Requires pricing adjustments
+Sensitivity of profit to hour increases
 
-🧠 Key Concepts Applied
+Impact of resource mix on cost structure
+
+🧠 Key Pricing Concepts Applied
 
 Fixed Fee Pricing
 
 Break-even Analysis
+
+Margin Target Protection
 
 Margin Erosion
 
@@ -33,8 +39,9 @@ Cost Sensitivity Analysis
 Scenario Testing
 
 📊 Model Structure
+1️⃣ Assumptions Sheet
 
-Assumptions Sheet
+Includes:
 
 Fixed Fee
 
@@ -42,25 +49,31 @@ Estimated Hours
 
 Target Margin
 
-Resource Cost Inputs
+Resource Cost per Level (Partner, Senior, Junior)
 
-Resource Mix
+Resource Mix (%)
 
-Weighted Average Cost Calculation
+Weighted Average Cost per Hour Calculation
 
-Base Case Analysis
+2️⃣ Base Case Analysis
 
-Expected Cost
+Calculates:
+
+Expected Total Cost
 
 Expected Profit
 
-Margin %
+Expected Margin
 
 Break-even Hours
 
-Risk & Sensitivity Analysis
+Margin Threshold Hours
 
-Profit impact across varying hour scenarios
+3️⃣ Risk & Sensitivity Analysis
+
+Evaluates:
+
+Profit across different hour scenarios
 
 Margin classification (Above Target / Below Target / Loss)
 
@@ -68,16 +81,16 @@ Visual profit sensitivity chart
 
 📈 Example Insight
 
-The model demonstrates how increased Partner involvement raises weighted cost per hour, reduces break-even buffer, and increases pricing risk.
+The model demonstrates how increased senior resource involvement raises weighted cost per hour, reduces break-even buffer, and increases financial risk in fixed-fee engagements.
 
 💡 Strategic Application
 
 This model supports pricing teams in:
 
-Evaluating fixed-fee risk
+Evaluating financial exposure before proposal submission
 
 Protecting target margins
 
-Adjusting resource allocation
+Managing resource allocation risk
 
-Supporting commercial negotiation decisions
+Supporting data-driven commercial negotiations
