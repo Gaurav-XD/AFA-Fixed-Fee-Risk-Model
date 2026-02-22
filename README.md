@@ -18,7 +18,7 @@ Requires pricing or staffing adjustments
 
 It provides a structured, decision-ready financial risk framework prior to proposal approval.
 
-🎯 Business Problem
+##🎯 Business Problem
 
 Under fixed-fee engagements:
 
@@ -30,7 +30,7 @@ Margin erosion	Begins before break-even
 
 Without structured analysis, firms may approve engagements that appear profitable but are financially unstable.
 
-🧠 Analytical Framework
+##🧠 Analytical Framework
 
 This model applies core pricing and financial risk concepts:
 
@@ -40,8 +40,8 @@ Margin Threshold Analysis	Identify when margin falls below target
 Weighted Cost Modeling	Simulate staffing impact
 Sensitivity Analysis	Measure profit volatility across hours
 Risk Classification	Categorize engagement health
-🏗 Model Architecture
-1️⃣ Assumptions Layer
+##🏗 Model Architecture
+#1️⃣ Assumptions Layer
 
 Structured input design including:
 
@@ -57,7 +57,7 @@ Resource Mix (%)
 
 Weighted Average Cost per Hour Calculation
 
-2️⃣ Base Case Evaluation
+#2️⃣ Base Case Evaluation
 
 Automatically computes:
 
@@ -71,7 +71,7 @@ Break-even Hours
 
 Margin Risk Threshold
 
-3️⃣ Risk & Sensitivity Engine
+#3️⃣ Risk & Sensitivity Engine
 
 Evaluates:
 
@@ -87,14 +87,14 @@ Margin classification:
 
 Visual profit sensitivity chart
 
-📊 Model Preview
+##📊 Model Preview
 Assumptions Layer
 
 Risk & Margin Classification
 
 Profit Sensitivity Curve
 
-📈 Key Insight Demonstrated
+##📈 Key Insight Demonstrated
 
 Margin risk begins before break-even.
 
@@ -108,7 +108,7 @@ Financial safety buffer
 
 Profit sensitivity
 
-💼 Strategic Application
+##💼 Strategic Application
 
 This framework supports pricing teams in:
 
@@ -122,7 +122,7 @@ Supporting commercial negotiations
 
 Aligning staffing with financial targets
 
-🛠 Tools & Capabilities Demonstrated
+##🛠 Tools & Capabilities Demonstrated
 
 Advanced Excel financial modeling
 
@@ -134,7 +134,9 @@ Cost structure simulation
 
 Pricing risk evaluation
 
-📁 Repository Structure
+##📁 Repository Structure
+
+
 afa-fixed-fee-risk-model/
 │
 ├── excel-model/
