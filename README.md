@@ -134,18 +134,3 @@ Cost structure simulation
 
 Pricing risk evaluation
 
-##📁 Repository Structure
-
-
-afa-fixed-fee-risk-model/
-│
-├── excel-model/
-│   └── AFA_Fixed_Fee_Risk_Model.xlsx
-│
-├── screenshots/
-│   ├── assumptions_sheet.png
-│   ├── risk_analysis.png
-│   └── profit_sensitivity_chart.png
-│
-└── docs/
-    └── project_explanation.md
