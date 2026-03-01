@@ -1,6 +1,7 @@
 # 🧾 AFA Fixed Fee Risk Model
 # 📊 Pricing, Margin Protection & Financial Risk Simulation
 <p align="left"> <strong>Domain:</strong> Professional Services Pricing (Law / Consulting)<br> <strong>Focus:</strong> Fixed-Fee (AFA) Risk Evaluation<br> <strong>Tool:</strong> Microsoft Excel (Structured Financial Modeling) </p>
+
 # 🔍 Executive Summary
 
 Fixed-fee engagements shift financial risk from the client to the firm.
